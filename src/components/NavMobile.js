@@ -40,6 +40,15 @@ const NavMobile = () => {
         className="cursor-pointer text-white"
       >
         <AiOutlineMenu className="w-8 h-8 m-2 text-black" />
+        <div className=" flex flex-col items-center  gap-6 mt-32 text-blue-600 font-bold">
+          <span>S</span>
+          <span>I</span>
+          <span>D</span>
+          <span>E</span>
+          <span>B</span>
+          <span>A</span>
+          <span>R</span>
+        </div>
       </div>
 
       {/* circle */}
@@ -47,7 +56,7 @@ const NavMobile = () => {
         variants={circleVariants}
         initial="hidden"
         animate={isOpen ? "visible" : "hidden"}
-        className="w-4 h-4 rounded-full fixed top-0 right-0"
+        className="w-4 h-4 rounded-full fixed top-0 left-0"
         style={{ backgroundColor: "rgba(22, 22, 22, 1)", color: "white" }}
       ></motion.div>
 
@@ -61,7 +70,7 @@ const NavMobile = () => {
       >
         <div
           onClick={() => setIsOpen(false)}
-          className="cursor-pointer absolute top-8 right-8"
+          className="cursor-pointer absolute top-8 left-6"
         >
           <ImCross className="w-8 h-8 text-white" />
         </div>

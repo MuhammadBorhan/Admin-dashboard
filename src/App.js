@@ -2,9 +2,9 @@ import logo from "./logo.svg";
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
-import Home from "./Pages/Home";
 import AccountInfo from "./Pages/AccountInfo";
 import NomineeInfo from "./Pages/NomineeInfo";
+import Dashboard from "./Pages/Dashboard";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <BrowserRouter>
         <Sidebar>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Dashboard />} />
             <Route path="/accountInfo" element={<AccountInfo />} />
             <Route path="/nominee" element={<NomineeInfo />} />
             <Route

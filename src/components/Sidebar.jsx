@@ -16,7 +16,7 @@ const Sidebar = ({ children }) => {
       <div className="lg:hidden">
         <NavMobile />
       </div>
-      <main className="children ">{children}</main>
+      <main className="children overflow-auto">{children}</main>
     </div>
   );
 };
