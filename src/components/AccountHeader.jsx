@@ -2,7 +2,7 @@ import React from "react";
 
 const AccountHeader = () => {
   return (
-    <form className="flex flex-col md:flex-row md:justify-between md:px-12 ">
+    <form className="flex flex-col md:flex-row md:justify-between px-4 md:px-12 bg-slate-100 pt-4">
       <div className="mb-4 flex flex-col md:flex-row gap-2 items-center ">
         <label
           htmlFor="membershipNo"

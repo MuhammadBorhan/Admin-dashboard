@@ -3,8 +3,8 @@ import AccountHeader from "../components/AccountHeader";
 
 const NomineeInfo = () => {
   return (
-    <div className="p-4" style={{ backgroundColor: "#E5E7EB" }}>
-      <div className="p-8">
+    <div className="p-4 lg:h-screen" style={{ backgroundColor: "#E5E7EB" }}>
+      <div className="py-8">
         <AccountHeader />
       </div>
 
@@ -13,8 +13,8 @@ const NomineeInfo = () => {
           <h1 className="text-center text-xl py-6 border-b-2 font-bold">
             Nominee Information
           </h1>
-          <div className="flex gap-4">
-            <div className="w-full ">
+          <div className="flex flex-col md:flex-row gap-4">
+            <div className=" px-2">
               <p className="font-bold text-center mb-2">Name</p>
               <form action="">
                 <div className="flex items-center">
@@ -63,79 +63,82 @@ const NomineeInfo = () => {
                 </div>
               </form>
             </div>
-            <div className="w-[620px] ">
-              <p className="font-bold text-center mb-2">Relation</p>
-              <form action="">
-                <div className="">
-                  <input
-                    type="text"
-                    name=""
-                    id=""
-                    className="mb-2 h-8 w-full"
-                  />
-                </div>
-                <div className="">
-                  <input
-                    type="text"
-                    name=""
-                    id=""
-                    className="mb-2 h-8 w-full"
-                  />
-                </div>
-                <div className="">
-                  <input
-                    type="text"
-                    name=""
-                    id=""
-                    className="mb-2 h-8 w-full"
-                  />
-                </div>
-                <div className="">
-                  <input
-                    type="text"
-                    name=""
-                    id=""
-                    className="mb-2 h-8 w-full"
-                  />
-                </div>
-              </form>
-            </div>
-            <div className="w-32 mr-2">
-              <p className="font-bold text-center mb-2">Age</p>
-              <form action="">
-                <div className="">
-                  <input
-                    type="text"
-                    name=""
-                    id=""
-                    className="mb-2 h-8 w-full"
-                  />
-                </div>
-                <div className="">
-                  <input
-                    type="text"
-                    name=""
-                    id=""
-                    className="mb-2 h-8 w-full"
-                  />
-                </div>
-                <div className="">
-                  <input
-                    type="text"
-                    name=""
-                    id=""
-                    className="mb-2 h-8 w-full"
-                  />
-                </div>
-                <div className="">
-                  <input
-                    type="text"
-                    name=""
-                    id=""
-                    className="mb-2 h-8 w-full"
-                  />
-                </div>
-              </form>
+
+            <div className="flex gap-2 px-2">
+              <div className="w-[400px] ">
+                <p className="font-bold text-center mb-2">Relation</p>
+                <form action="">
+                  <div className="">
+                    <input
+                      type="text"
+                      name=""
+                      id=""
+                      className="mb-2 h-8 w-full"
+                    />
+                  </div>
+                  <div className="">
+                    <input
+                      type="text"
+                      name=""
+                      id=""
+                      className="mb-2 h-8 w-full"
+                    />
+                  </div>
+                  <div className="">
+                    <input
+                      type="text"
+                      name=""
+                      id=""
+                      className="mb-2 h-8 w-full"
+                    />
+                  </div>
+                  <div className="">
+                    <input
+                      type="text"
+                      name=""
+                      id=""
+                      className="mb-2 h-8 w-full"
+                    />
+                  </div>
+                </form>
+              </div>
+              <div className="w-40 mr-2">
+                <p className="font-bold text-center mb-2">Age</p>
+                <form action="">
+                  <div className="">
+                    <input
+                      type="text"
+                      name=""
+                      id=""
+                      className="mb-2 h-8 w-full"
+                    />
+                  </div>
+                  <div className="">
+                    <input
+                      type="text"
+                      name=""
+                      id=""
+                      className="mb-2 h-8 w-full"
+                    />
+                  </div>
+                  <div className="">
+                    <input
+                      type="text"
+                      name=""
+                      id=""
+                      className="mb-2 h-8 w-full"
+                    />
+                  </div>
+                  <div className="">
+                    <input
+                      type="text"
+                      name=""
+                      id=""
+                      className="mb-2 h-8 w-full"
+                    />
+                  </div>
+                </form>
+              </div>
             </div>
           </div>
         </div>

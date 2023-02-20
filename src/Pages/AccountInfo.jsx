@@ -4,11 +4,11 @@ import AccountHeader from "../components/AccountHeader";
 const AccountInfo = () => {
   return (
     <div className="p-4" style={{ backgroundColor: "#E5E7EB" }}>
-      <div className="p-8">
+      <div className="py-8">
         <AccountHeader />
       </div>
 
-      <div className="" style={{ backgroundColor: "#867979" }}>
+      <div className="" style={{ backgroundColor: "gray" }}>
         <div className=" p-2 lg:p-8">
           <form
             action=""

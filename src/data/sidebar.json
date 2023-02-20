@@ -50,6 +50,11 @@
         "title": "Nominee Information",
         "icon": "bi-info-circle-fill",
         "path": "/nominee"
+      },
+      {
+        "title": "Office & FPR Summary",
+        "icon": "bi-info-circle-fill",
+        "path": "/summary"
       }
     ]
   },

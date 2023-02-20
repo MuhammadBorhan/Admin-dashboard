@@ -5,6 +5,7 @@ import Sidebar from "./components/Sidebar";
 import AccountInfo from "./Pages/AccountInfo";
 import NomineeInfo from "./Pages/NomineeInfo";
 import Dashboard from "./Pages/Dashboard";
+import OfficeSummary from "./Pages/OfficeSummary";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <Route path="/" element={<Dashboard />} />
             <Route path="/accountInfo" element={<AccountInfo />} />
             <Route path="/nominee" element={<NomineeInfo />} />
+            <Route path="/summary" element={<OfficeSummary />} />
             <Route
               path="*"
               element={
