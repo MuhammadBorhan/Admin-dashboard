@@ -1,42 +1,15 @@
 import React from "react";
+import AccountHeader from "../components/AccountHeader";
 
 const AccountInfo = () => {
   return (
-    <div style={{ backgroundColor: "#8c7373" }}>
+    <div className="p-4" style={{ backgroundColor: "#E5E7EB" }}>
       <div className="p-8">
-        {" "}
-        <form className="flex flex-col md:flex-row md:justify-between md:px-12 ">
-          <div className="mb-4 flex flex-col md:flex-row gap-2 items-center ">
-            <label
-              htmlFor="membershipNo"
-              className="text-center text-white mb-2 w-48 font-bold"
-            >
-              Account No
-            </label>
-            <input
-              type="text"
-              name="accountNo"
-              className="w-full border border-gray-400 p-2"
-            />
-          </div>
-          <div className="mb-4 flex flex-col md:flex-row gap-2 items-center ">
-            <label
-              htmlFor="membershipNo"
-              className="text-center text-white mb-2 w-48 font-bold"
-            >
-              Membership No
-            </label>
-            <input
-              type="text"
-              name="membershipNo"
-              className="w-full border border-gray-400 p-2"
-            />
-          </div>
-        </form>
+        <AccountHeader />
       </div>
 
-      <div style={{ backgroundColor: "#867979" }}>
-        <div className=" p-8">
+      <div className="" style={{ backgroundColor: "#867979" }}>
+        <div className=" p-2 lg:p-8">
           <form
             action=""
             className="grid grid-cols-1 md:grid-cols-2 gap-2 p-4 border-2"
@@ -139,7 +112,7 @@ const AccountInfo = () => {
           </form>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center p-2">
+        <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center p-2 pb-8">
           <div className="flex flex-col mb-6 lg:mb-0 justify-center items-center">
             <p className="font-bold text-center mb-2 text-white">
               Present Address
